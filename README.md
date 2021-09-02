@@ -1,1 +1,1 @@
-# atividade02
+# Atividade 02 - Resoluções Exercícios
