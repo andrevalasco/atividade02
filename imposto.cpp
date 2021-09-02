@@ -10,7 +10,7 @@ int main (){
 	std::cin >> salario;
 	
 	if (salario < 1900) {
-		std::cout << ("De acordo com o seu salario você esta isento de imposto");
+		std::cout << ("De acordo com o seu salario você esta isento do pagamento de imposto");
 	} else if (salario >= 1900 && salario < 2500) {
 		std::cout << "De acordo com o seu salario, devera pagar: R$" << (salario * 0.02) << " de imposto";
 		} else if (salario >= 2500 && salario < 3700) {
