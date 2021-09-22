@@ -2,9 +2,9 @@
 
 int main () {
 	
-	int numero1 = 0;
-	int numero2 = 0;
-	int operacao = 0;
+	float numero1 = 0;
+	float numero2 = 0;
+	float operacao = 0;
 		
 		std::cout << "Digite um numero positivo: ";
 		std::cin >> numero1;
