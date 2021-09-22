@@ -6,13 +6,13 @@ int main () {
 	int numero2 = 0;
 	int operacao = 0;
 		
-		std::cout << "Digite um numero: ";
+		std::cout << "Digite um numero positivo: ";
 		std::cin >> numero1;
 		
-		std::cout << "Digite outro numero: ";
+		std::cout << "Digite outro numero positivo: ";
 		std::cin >> numero2;
 		
-		std::cout << "Escolha qual operacao deseja realizar entre os dois numeros:\n 1.Adicao\n 2.subtracao\n 3.Divisao\n 4.Multiplicacao\n";
+		std::cout << "Escolha qual operacao deseja realizar entre os dois numeros positivos:\n 1.Adicao\n 2.subtracao\n 3.Divisao\n 4.Multiplicacao\n";
 		std::cin >> operacao;
 		
 		if (operacao == 1) {
